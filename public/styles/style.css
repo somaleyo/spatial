@@ -22336,4 +22336,23 @@ header h3 {
   line-height: 35px;
 }
 
+.maecenas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+  flex-direction: row;
+  gap: 150px;
+}
+.maecenas h3 {
+  font-weight: 100;
+}
+.maecenas .cont-gauche {
+  padding-left: 300px;
+  padding-right: 100px;
+}
+.maecenas .cont-droite {
+  padding-right: 300px;
+}
+
 /*# sourceMappingURL=style.css.map */
