@@ -22315,6 +22315,15 @@ body {
   margin: 0;
   padding: 0;
 }
+body h2 {
+  font-size: 35px;
+}
+body h3 {
+  font-weight: 100;
+  font-size: 21px;
+  line-height: 30px;
+  padding-top: 8px;
+}
 
 nav a {
   color: white;
@@ -22346,15 +22355,6 @@ header h3 {
   padding-bottom: 80px;
   line-height: 25px;
 }
-.maecenas h2 {
-  font-size: 35px;
-}
-.maecenas h3 {
-  font-weight: 100;
-  font-size: 21px;
-  line-height: 30px;
-  padding-top: 8px;
-}
 .maecenas .cont-gauche {
   padding-left: 300px;
   height: 100%;
@@ -22367,6 +22367,14 @@ header h3 {
 }
 .maecenas .cont-droite p {
   margin-bottom: 25px;
+}
+
+.fusce {
+  background-clip: #F6F6F6;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
