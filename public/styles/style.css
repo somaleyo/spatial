@@ -22323,6 +22323,7 @@ body h3 {
   font-size: 21px;
   line-height: 30px;
   padding-top: 8px;
+  color: #9D9D9C;
 }
 body .red {
   background-color: #F32853;
@@ -22465,6 +22466,47 @@ body .black {
   display: flex;
   gap: 15px;
   padding-bottom: 60px;
+}
+
+.mauris img {
+  border-radius: 50%;
+  border: 5px solid lightgray;
+}
+.mauris .diviseur {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.mauris .lorem-holder {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.mauris .lorem-holder .lorem-container {
+  display: flex;
+  flex-direction: row;
+  width: 49%;
+}
+.mauris .lorem-holder .lorem-container .lorem-text {
+  line-height: 3 0px;
+}
+.mauris .lorem-holder .lorem-container .lorem-text h4 {
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+.mauris .lorem-holder .lorem-container .lorem-text h5 {
+  font-size: 15px;
+  font-weight: 100;
+  color: #9D9D9C;
+}
+.mauris .lorem-holder .lorem-container .txt-end {
+  text-align: end;
+  padding-right: 20px;
+  padding-left: 150px;
+}
+.mauris .lorem-holder .lorem-container .txt-gch {
+  padding-left: 20px;
+  padding-right: 150px;
 }
 
 /*# sourceMappingURL=style.css.map */
