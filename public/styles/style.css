@@ -22342,21 +22342,36 @@ body h3 {
   height: 80%;
   background-color: rgba(0, 0, 0, 0.5);
 }
-.bgrnd .spatial {
+.bgrnd nav {
+  padding-top: 30px;
+}
+.bgrnd nav .spatial {
   font-weight: bold;
 }
-.bgrnd .nav-item a {
+.bgrnd nav .nav-item a {
   color: white !important;
   font-weight: 100;
 }
+.bgrnd nav .collapse {
+  display: flex;
+  padding: 10px;
+}
+.bgrnd nav .collapse .generic {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.bgrnd nav .collapse .home {
+  padding-left: 1000px;
+}
 .bgrnd header {
-  background-image: url(../assets/img/banner.jpg);
   height: 530px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: white;
+  position: relative;
+  z-index: 1;
   margin-bottom: 30px;
   line-height: 35px;
 }
