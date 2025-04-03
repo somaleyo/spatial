@@ -22468,9 +22468,17 @@ body .black {
   padding-bottom: 60px;
 }
 
+.mauris {
+  padding-bottom: 70px;
+}
 .mauris img {
   border-radius: 50%;
   border: 5px solid lightgray;
+}
+.mauris .titre {
+  padding-left: 170px;
+  padding-bottom: 7 0px;
+  padding-top: 80px;
 }
 .mauris .diviseur {
   display: flex;
@@ -22507,6 +22515,40 @@ body .black {
 .mauris .lorem-holder .lorem-container .txt-gch {
   padding-left: 20px;
   padding-right: 150px;
+}
+.aenean {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  flex-direction: column;
+  height: 350px;
+  position: relative;
+}
+
+.bgrnd2 {
+  position: relative;
+  z-index: 1;
+  background: url("../assets/img/banner.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10% 4%;
+  height: 350px;
+}
+.bgrnd2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  background-color: #F6F6F6;
 }
 
 /*# sourceMappingURL=style.css.map */
