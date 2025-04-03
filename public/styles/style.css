@@ -22695,7 +22695,8 @@ footer .copy .design {
   width: 100px;
 }
 .mauris .titre {
-  padding-left: 100px;
+  text-align: center;
+  padding-left: 20px;
   padding-bottom: 20px;
 }
 .mauris .diviseur {
