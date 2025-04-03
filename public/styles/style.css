@@ -22324,13 +22324,40 @@ body h3 {
   line-height: 30px;
   padding-top: 8px;
 }
+body .red {
+  background-color: #F32853;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding-left: 27px;
+  padding-right: 27px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-weight: bold;
+}
+body .start {
+  padding-bottom: 7px;
+  padding-top: 7px;
+  margin-top: 25px;
+}
+body .black {
+  background-color: #323037;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding-left: 27px;
+  padding-right: 27px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  font-weight: bold;
+}
 
 .bgrnd {
   background: url("../assets/img/banner.jpg");
   background-size: cover;
   background-position: 10% 4%;
   height: 80vh;
-  background-position: fixed;
+  background-attachment: fixed;
   background-repeat: no-repeat;
 }
 .bgrnd::before {
@@ -22372,9 +22399,18 @@ body h3 {
   color: white;
   position: relative;
   z-index: 1;
-  margin-bottom: 30px;
-  line-height: 35px;
 }
+.bgrnd header h1 {
+  margin-bottom: 20px;
+}
+.bgrnd header h3 {
+  line-height: 35px;
+  font-size: 27px;
+}
+.bgrnd header .text {
+  margin-top: -100px;
+}
+
 .maecenas {
   display: flex;
   align-items: start;
@@ -22405,11 +22441,15 @@ body h3 {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  padding-top: 80px;
+}
+.fusce h3 {
+  padding-bottom: 65px;
 }
 .fusce .cards-holder {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 40px;
   margin-bottom: 40px;
 }
 .fusce .cards-holder .card-body {
@@ -22420,6 +22460,11 @@ body h3 {
   padding: 25px;
   padding-bottom: 20px;
   font-weight: bold;
+}
+.fusce .btn-cont {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 60px;
 }
 
 /*# sourceMappingURL=style.css.map */
