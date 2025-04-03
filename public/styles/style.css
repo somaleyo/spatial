@@ -20140,7 +20140,7 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url("../webfonts/fa-regular-400.woff2") format("woff2"), url("../webfonts/fa-regular-400.ttf") format("truetype");
+  src: url("../assets/webfonts/fa-regular-400.woff2") format("woff2"), url("../assets/webfonts/fa-regular-400.ttf") format("truetype");
 }
 .far,
 .fa-regular {
@@ -20162,7 +20162,7 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.ttf") format("truetype");
+  src: url("../assets/webfonts/fa-brands-400.woff2") format("woff2"), url("../assets/webfonts/fa-brands-400.ttf") format("truetype");
 }
 .fab,
 .fa-brands {
@@ -22304,7 +22304,7 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 900;
   font-display: block;
-  src: url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.ttf") format("truetype");
+  src: url("../assets/webfonts/fa-solid-900.woff2") format("woff2"), url("../assets/webfonts/fa-solid-900.ttf") format("truetype");
 }
 .fas,
 .fa-solid {
@@ -22549,6 +22549,20 @@ body .black {
 
 footer {
   background-color: #F6F6F6;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+footer .copy {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
+}
+footer .copy .design {
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
