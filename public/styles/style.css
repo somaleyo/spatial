@@ -22372,24 +22372,23 @@ body .black {
 }
 .bgrnd nav {
   padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .bgrnd nav .spatial {
   font-weight: bold;
+  padding-left: 30px;
 }
-.bgrnd nav .nav-item a {
+.bgrnd nav .ancres {
+  display: flex;
+  gap: 40px;
+  padding-right: 50px;
+}
+.bgrnd nav .ancres a {
   color: white !important;
   font-weight: 100;
-}
-.bgrnd nav .collapse {
-  display: flex;
-  padding: 10px;
-}
-.bgrnd nav .collapse .generic {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-.bgrnd nav .collapse .home {
-  padding-left: 1000px;
+  text-decoration: none;
 }
 .bgrnd header {
   height: 530px;
@@ -22574,6 +22573,146 @@ footer .copy .design {
   border-right: 1px solid rgba(0, 0, 0, 0.2);
   padding-left: 30px;
   padding-right: 30px;
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  body nav {
+    padding-top: 0px;
+    display: flex;
+    flex-direction: row;
+  }
+  body nav .ancres {
+    flex-direction: column;
+  }
+  body header {
+    height: 200px;
+  }
+  body header .text {
+    margin-top: -50px;
+  }
+  body .maecenas {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    flex-direction: column;
+    margin-left: -200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+  }
+  body .maecenas .cont-droite {
+    text-align: start;
+    width: 600px;
+    padding-left: 100px;
+  }
+  body .maecenas .cont-droite p {
+    font-size: 12px;
+  }
+  body .fusce img {
+    width: 300px;
+  }
+  body .fusce .cards-holder {
+    flex-direction: column;
+  }
+  body .mauris img {
+    width: 100px;
+  }
+  body .mauris .titre {
+    padding-left: 100px;
+    padding-bottom: 20px;
+  }
+  body .mauris .diviseur {
+    margin-right: 0px;
+    padding-right: 0px;
+    flex-direction: column;
+  }
+  body .mauris .lorem-holder {
+    flex-direction: column;
+    margin-right: -400px;
+  }
+  body .mauris .lorem-img {
+    padding: 10px;
+  }
+  body .mauris .lorem-text {
+    padding: 0 !important;
+  }
+}
+.bgrnd {
+  background: url("../assets/img/banner.jpg");
+  background-size: cover;
+  background-position: 10% 4%;
+  height: 80vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.bgrnd::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 82%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.maecenas {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  text-align: start;
+  flex-direction: row;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  line-height: 25px;
+}
+.maecenas .cont-gauche {
+  padding-left: 100px;
+  height: 100%;
+  width: 1000px;
+}
+.maecenas .cont-droite {
+  padding-right: 100px;
+  width: 1000px;
+  font-size: 14px;
+}
+.maecenas .cont-droite p {
+  margin-bottom: 25px;
+}
+
+.fusce img {
+  width: 300px;
+}
+.fusce .cards-holder {
+  flex-direction: row;
+}
+
+.mauris img {
+  width: 100px;
+}
+.mauris .titre {
+  padding-left: 100px;
+  padding-bottom: 20px;
+}
+.mauris .diviseur {
+  margin-right: 0px;
+  padding-right: 0px;
+  flex-direction: colum;
+}
+.mauris .lorem-holder {
+  flex-direction: row;
+  margin-right: 30px;
+}
+.mauris .lorem-img {
+  padding: 10px;
+}
+.mauris .lorem-text {
+  margin-left: 20px;
+  padding: 0 !important;
 }
 
 /*# sourceMappingURL=style.css.map */

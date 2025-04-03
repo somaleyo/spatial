@@ -52,22 +52,23 @@ body
         background-color: rgba(0, 0, 0, 0.5)
     nav
         padding-top: 30px
+        display: flex
+        flex-direction: row
+        justify-content: space-between
         .spatial
             font-weight: bold
-        .nav-item
+            padding-left: 30px
+        
+            
+        .ancres
+            display: flex
+            gap: 40px
+            padding-right: 50px
+           
             a
                 color: white !important
                 font-weight: 100
-        .collapse
-        
-            display: flex
-            padding: 10px
-            .generic
-                padding-left: 30px
-                padding-right: 30px
-            .home
-                padding-left: 1000px
-
+                text-decoration: none
     header
         height: 530px
         display: flex
@@ -232,3 +233,127 @@ footer
 
 
 
+@media (max-width:768px) 
+    body
+        overflow-x: hidden
+        nav
+            padding-top: 0px
+            display: flex
+            flex-direction: row
+            .ancres
+                flex-direction: column
+                
+        header
+            height: 200px
+            .text
+                margin-top: -50px
+        .maecenas
+            flex-wrap: wrap
+            justify-content: center
+            align-items: center
+            text-align: start
+            flex-direction: column
+            margin-left: -200px
+            .cont-gauche
+            display: flex
+            flex-direction: column
+            justify-content: center
+            text-align: start
+            .cont-droite
+
+                text-align: start
+                width: 600px
+                padding-left: 100px
+                p
+                    font-size: 12px
+
+        .fusce
+            img
+                width: 300px
+            .cards-holder 
+                flex-direction: column
+        .mauris
+            img 
+                width: 100px
+            .titre
+                padding-left: 100px
+                padding-bottom: 20px
+            .diviseur
+                margin-right: 0px
+                padding-right: 0px
+                flex-direction: column
+                
+            .lorem-holder
+                flex-direction: column
+                margin-right: -400px
+            
+            .lorem-img
+                padding: 10px
+            .lorem-text 
+                padding: 0 !important
+                
+@media (min-width:769px) and (max-width:992px)
+
+.bgrnd
+    background: url('../assets/img/banner.jpg')
+    @include bg-size
+    background-attachment: fixed
+    background-repeat: no-repeat
+    &::before
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 82%
+        background-color: rgba(0, 0, 0, 0.5)
+.maecenas
+    display: flex
+    align-items: start
+    justify-content: center
+    text-align: start
+    flex-direction: row
+    padding-top: 80px
+    padding-bottom: 80px
+    line-height: 25px
+   
+    .cont-gauche
+        padding-left: 100px
+        height: 100%
+        width: 1000px
+       
+      
+    .cont-droite
+        padding-right: 100px
+        width: 1000px
+        font-size: 14px
+        p
+            margin-bottom: 25px 
+.fusce
+    img
+        width: 300px
+    .cards-holder 
+        flex-direction: row
+.mauris
+            img 
+                width: 100px
+            .titre
+                padding-left: 100px
+                padding-bottom: 20px
+                
+            .diviseur
+                margin-right: 0px
+                padding-right: 0px
+                flex-direction: colum
+                
+            .lorem-holder
+                flex-direction: row
+                margin-right: 30px
+            
+            .lorem-img
+                padding: 10px
+            .lorem-text 
+                margin-left: 20px
+                padding: 0 !important
+    
+  
